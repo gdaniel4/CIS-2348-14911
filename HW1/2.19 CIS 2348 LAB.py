@@ -1,3 +1,5 @@
+#Gabriel Daniels
+#PSID: 1856516
 # Prompt the user for the number of cups of lemon juice, water, and agave nectar needed to make lemonade.
 # Prompt the user to specify the number of servings the recipe yields. Output the ingredients and serving size
 lemoncups = float(input('Enter amount of lemon juice (in cups):''\n'))
