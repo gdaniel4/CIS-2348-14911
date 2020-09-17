@@ -1,3 +1,5 @@
+#Gabriel Daniels
+#PSID: 1856516
 import math
 #getting input from user
 wallh = int(input('Enter wall height (feet):''\n'))
