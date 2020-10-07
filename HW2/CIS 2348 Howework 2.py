@@ -1,6 +1,6 @@
 month_list = {'January': '1', 'February': '2','March': '3','April': '4','May': '5','June': '6','July': '7','August': '8','September': '9','October': '10','November': '11', 'December': '12'}
 input_dates = open(r'C:\Users\gabed\OneDrive\Documents\Gabriel Daniels\inputDates.txt')
-output_dates = open('C:\\Users\\gabed\\OneDrive\\Documents\\Gabriel Daniels\\outputDates.txt','w')
+parsedDates = open('C:\\Users\\gabed\\OneDrive\\Documents\\Gabriel Daniels\\parsedDates.txt','w')
 
 #reads dates from input
 """enter_date = input("Format date as Month Day, Year (January 1, 1999): ")
@@ -34,9 +34,9 @@ for date in input_dates:
         # rejoins the date with all intergers to match formatting
         date = '/'.join(date)
         #puts all properly formatted dates into list
-        output_dates.write(date)
+        parsedDates.write(date)
         print(date)
 
-output_dates.close()
+parsedDates.close()
 input_dates.close()
 
