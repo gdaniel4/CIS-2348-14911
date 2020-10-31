@@ -1,3 +1,6 @@
+# Gabriel Daniels
+# PSID 1856516
+
 #defining CLASS attributes
 class ItemToPurchase:
     item_name = ''
