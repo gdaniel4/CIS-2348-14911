@@ -1,6 +1,9 @@
+# Gabriel Daniels
+# PSID 1856516
+
 class FoodItem:
     #constructor with default values
-    def __init__(self, name=None, fat=0.0, carbs=0.0, protein=0.0):
+    def __init__(self, name='None', fat=0.0, carbs=0.0, protein=0.0):
         self.name = name
         self.fat = fat
         self.carbs = carbs
