@@ -1,3 +1,6 @@
+# Gabriel Daniels
+# PSID 1856516
+
 class ItemToPurchase:
 
     # Parameter Constructor
