@@ -1,3 +1,6 @@
+# Gabriel Daniels
+# PSID 1856516
+
 class Team:
     def __init__(self):
         self.team_name = 'none'
