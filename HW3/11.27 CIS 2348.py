@@ -1,3 +1,6 @@
+# Gabriel Daniels
+# PSID 1856516
+
 # establishes roster dictionary
 roster_dict = {}
 # initializes i
